@@ -131,4 +131,4 @@ class DataBuildClassifier(Data):
 if __name__ == '__main__':
     data = DataBuildClassifier('/home/likan_blk/BCI/NewData/').get_data([33],shuffle=True,
                                                                                windows=[(0.2, 0.5)],baseline_window=(0.2, 0.3))
-    print 1
+    print(1)
